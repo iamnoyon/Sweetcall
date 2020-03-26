@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "669090537149",
+    "firebase_url": "https://sweetcall-ec911.firebaseio.com",
+    "project_id": "sweetcall-ec911",
+    "storage_bucket": "sweetcall-ec911.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669090537149:android:c2259c9672f7a89a43a1d4",
+        "android_client_info": {
+          "package_name": "com.noyon.sweetcall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669090537149-lfam5dd5uskqmm8r3c4g2t2l00h6tq5g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.noyon.sweetcall",
+            "certificate_hash": "d6292e8990e59dbe808fded62fd5a8764718f03d"
+          }
+        },
+        {
+          "client_id": "669090537149-7svi5jr69nidtlo3tbhsrvgk6710h338.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOqCdvtDLMLmVJVQ85gCUNDCEmcONjoBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669090537149-7svi5jr69nidtlo3tbhsrvgk6710h338.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
