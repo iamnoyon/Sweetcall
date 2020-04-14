@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NotificationsActivity">
+    tools:context=".FindPeopleActivity">
+
 
     <com.google.android.material.appbar.AppBarLayout
-        android:id="@+id/app_bar_layouts_notifications"
+        android:id="@+id/app_bar_layouts_find_people"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <androidx.appcompat.widget.Toolbar
@@ -18,15 +18,17 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-                <TextView
-                    android:text="Notifications"
-                    android:textSize="20dp"
-                    android:textStyle="bold"
+                <EditText
+                    android:id="@+id/search_user_text"
+                    android:hint="Search Friends"
                     android:textColor="@android:color/white"
                     android:layout_centerVertical="true"
-                    android:layout_width="wrap_content"
+                    android:drawableLeft="@drawable/search"
+                    android:textAlignment="center"
+                    android:layout_marginRight="16dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content">
-                </TextView>
+                </EditText>
 
 
             </RelativeLayout>
@@ -34,11 +36,12 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
+
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/notifications_list"
+        android:id="@+id/find_friends_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/app_bar_layouts_notifications"
+        android:layout_below="@id/app_bar_layouts_find_people"
         >
 
     </androidx.recyclerview.widget.RecyclerView>
